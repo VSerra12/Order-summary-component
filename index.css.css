@@ -1,0 +1,133 @@
+.background-image {
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  center top;
+    background-size: contain;
+    display: block;
+    height: auto;
+}
+
+img{
+    object-fit: fill;
+}
+.box {
+    width: 100%;
+    height: 675px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
+
+}
+.content-box {
+    width: 300px;
+    height: 70%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    box-shadow: 0px 5px 20px hsl(0, 0%, 84%);
+}
+.illustration {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text {
+    text-align: center;
+    font-size: 14px;
+    padding: -1% 15% 0 15%;
+}
+.box-plan {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan {
+    background-color: hsl(224, 79%, 95%);
+    height: 90%;
+    width: 85%;
+    border-radius: 10px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+.music-icon {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.type-price {
+    font-size: 12px;
+    line-height: 5px;
+}
+.change-button {
+    margin-left: auto;
+    padding-right: 15px;
+    color: hsl(245, 75%, 52%);
+}
+.change-button:hover {
+    color: hsl(245, 80%, 64%);
+}
+.box-button-proceed {
+    width: 100%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-proceed {
+    background-color: hsl(245, 75%, 52%);
+    width: 85%;
+    height: 55%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(224, 79%, 95%);
+    box-shadow: 0px 15px 10px hsl(0, 0%, 84%);
+    font-size: 11px;
+}
+.button-proceed:hover {
+    background-color: hsl(245, 80%, 64%);
+}
+.box-button-cancel {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-cancel {
+    font-size: 11px;
+    color: hsl(224, 23%, 55%);
+}
+.button-cancel:hover {
+    color: black;
+}
+.text>p {
+    color: hsl(224, 23%, 55%);
+}
+.type-price p:nth-child(2n) {
+    color: hsl(224, 23%, 55%);
+}
+@media (max-width: 375px) {
+    .content-box{
+        width: 275px;
+    }
+    .text{
+        padding: 0% 10% 5% 10%;
+    }
+    .button-cancel{
+        font-size: 13px;
+    }
+    
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
