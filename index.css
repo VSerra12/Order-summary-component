@@ -95,6 +95,7 @@ img{
 }
 .button-proceed:hover {
     background-color: hsl(245, 80%, 64%);
+    cursor: pointer;
 }
 .box-button-cancel {
     width: 100%;
@@ -109,6 +110,7 @@ img{
 }
 .button-cancel:hover {
     color: black;
+    cursor: pointer;
 }
 .text>p {
     color: hsl(224, 23%, 55%);
